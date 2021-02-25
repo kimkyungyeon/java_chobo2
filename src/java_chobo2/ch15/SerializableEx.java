@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class SerializableEx {
 	public static void main(String[] args) {
-		String fileName = "UserInfo2.ser";
+		String fileName = "UserInfo.ser";
 		
 		try(FileOutputStream fos = new FileOutputStream(fileName);
 				BufferedOutputStream bos = new BufferedOutputStream(fos);
